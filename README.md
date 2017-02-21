@@ -27,6 +27,15 @@ Service                                   | Description
 [User service](wiki/Users.md)               |      User registration/login/logout       |
 [Report service](wiki/Reports.md)             |        File upload/report generation         |
 
+# Data Model
+Service                                   | Description
+--------------------------------------------- | ------------------------------------------------------
+[User Data Model](wiki/user_model.md)               |     Data model for the users      |
+[Report Data Model](wiki/report_model.md)             |        Data model for the reports         |
+
+
+
+
 # Technology stack
 - Front-end: html, js, css (bootstrap)
 - Back-end server: flask framework (python)
