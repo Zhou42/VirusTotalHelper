@@ -44,7 +44,7 @@ Data Model                                   | Description
 
 # Issues Encountered
 
-Since I am using the free basic API key, which only allows for 4 requests/minute maximum, the program will sleep for 16s each time making a VirusTotal's public API call. This however will result in very slow processing speed if we have large amount of hashes. 
+Since I am using the free basic API key, which only allows for 4 requests/minute maximum, the program will sleep for 16s each time making a VirusTotal's public API call. This however will result in slow processing speed especially when we have large amount of hashes. 
 
 ### Reference  ###
 * [VirusTotal's public API](https://www.virustotal.com/en/documentation/public-api/)
