@@ -10,6 +10,8 @@ In the top-level folder, run command
 
 Open the browser and the service is running at http://locallhost:5000
 
+![Login](login_page.png)
+
 # Key Python Modules Used
 - Flask(0.12) web framework
 - flask-sqlalchemy(2.1) database ORM
