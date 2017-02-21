@@ -25,3 +25,9 @@ Service                                   | Description
 [User service](wiki/Users.md)               |      User registration/login/logout       |
 [Report service](wiki/Reports.md)             |        File upload/report generation         |
 
+# NOTICE
+
+Since I am using the free basic API key, which only allows for 4 requests/minute maximum, the program will sleep for 16s each time making an VirusTotal's public API call. This however will result in very slow processing speed if we have large amount of hashes.
+
+### Reference  ###
+* [VirusTotal's public API](https://www.virustotal.com/en/documentation/public-api/)
