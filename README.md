@@ -8,4 +8,11 @@ In the top-level folder, run command
 	python run.py
 '''
 
-Open the browser, 
+Open the browser and the service is running at http://locallhost:5000
+
+# Key Python Modules Used
+- Flask==0.12
+- flask-sqlalchemy==2.1
+- flask-login==0.4.0
+- flask-bcrypt==0.7.1
+- flask-wtf==0.14.2 
