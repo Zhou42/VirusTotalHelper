@@ -29,8 +29,6 @@ fwrite = open("res.data", "w")
 count = 0
 
 for line in fread:
-    # Avoid reaching the query limit
-    time.sleep(16)
     
     try:
         # query each md5 hash
@@ -48,8 +46,13 @@ for line in fread:
         else:
             fwrite.write("File with hash " + params['resource'] + " not present in the file store!")
         fwrite.write('\n')
+        count += 1
+        print(count)
+
     except:
         pass
+    # Avoid reaching the query limit
+    time.sleep(16)
     
 fread.close()
 fwrite.close()
