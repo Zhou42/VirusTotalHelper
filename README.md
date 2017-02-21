@@ -23,6 +23,6 @@ The application is written using python 2.7.12
 Service                                   | Description
 --------------------------------------------- | ------------------------------------------------------
 **Authentication**                                  |         |
-[User service](wiki/Users)               |             |
-[Report service](wiki/Reports)             |                 |
+[User service](wiki/Users.md)               |             |
+[Report service](wiki/Reports.md)             |                 |
 
