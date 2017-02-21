@@ -22,7 +22,6 @@ The application is written using python 2.7.12
 # Services 
 Service                                   | Description
 --------------------------------------------- | ------------------------------------------------------
-**Authentication**                                  |         |
-[User service](wiki/Users.md)               |             |
-[Report service](wiki/Reports.md)             |                 |
+[User service](wiki/Users.md)               |      User registration/login/logout       |
+[Report service](wiki/Reports.md)             |        File upload/report generation         |
 
