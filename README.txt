@@ -1,2 +1,0 @@
-# VirusTotal Helper
-VirusTotal Helper is a website that allows users to upload a text file as a list of hashes (MD5 or Sha256) and generates a simple report using information provided by querying VirusTotal's public API for the hashes.

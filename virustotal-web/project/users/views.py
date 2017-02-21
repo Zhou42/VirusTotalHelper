@@ -64,6 +64,7 @@ def register():
 
 
 @users_blueprint.route('/login', methods=['GET', 'POST'])
+@users_blueprint.route('/', methods=['GET', 'POST'])
 def login():
     form = LoginForm(request.form)
     if request.method == 'POST':
