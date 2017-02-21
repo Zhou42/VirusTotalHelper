@@ -12,7 +12,7 @@ Open the browser and the service is running at http://locallhost:5000
 
 ![Login](login_page.png)
 
-# Key Python Modules Used
+# Key Python Modules Used (Dependencies)
 - Flask(0.12) web framework
 - flask-sqlalchemy(2.1) database ORM
 - flask-login(0.4.0) user management
@@ -26,6 +26,12 @@ Service                                   | Description
 --------------------------------------------- | ------------------------------------------------------
 [User service](wiki/Users.md)               |      User registration/login/logout       |
 [Report service](wiki/Reports.md)             |        File upload/report generation         |
+
+# Technology stack
+- Front-end: html, js, css (bootstrap)
+- Back-end server: flask framework (python)
+- Database: sqlite
+- Platform: Linux/OSX/Windows
 
 # Issues Encountered
 
