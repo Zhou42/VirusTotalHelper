@@ -1,0 +1,36 @@
+{% extends "layout.html" %}
+{% from "_form_macros.html" import render_field %}
+
+{% block content %}
+
+<div class="user-registration">
+  <div class="page-header">
+    <h2>Reports</h2>
+  </div>
+  
+  <table class = "table table-bordered">
+      <thead>
+        <tr class="info">
+         <th>Hash</th>
+         <th>Fortinet detection names</th>
+         <th>Number of engines detected</th>
+         <th>Scan date</th>
+       </tr>
+     </thead>
+
+    {% for r in reports %}
+     <tbody>
+      <tr>
+       <th>{{ r.hash_value }}</th>
+       <td>{{ r.Fortinet_detection }}</td>
+       <td>{{ r.detected_number }}</td>
+       <td>{{ r.scan_date }}</td>
+     </tr>
+    </tbody>
+    {% endfor %}
+
+  </table>
+
+</div>
+
+{% endblock %}
