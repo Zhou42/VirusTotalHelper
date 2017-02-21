@@ -2,7 +2,13 @@
 VirusTotal Helper is a website that allows users to upload a text file as a list of hashes (MD5 or Sha256) and generates a simple report using information provided by querying VirusTotal's public API for the hashes.
 
 # Run the Program
-In the top-level folder, run command
+In the top-level folder of the application
+
+```shell
+cd virustotal-web
+```
+
+run command
 
 ```shell
 	python run.py
