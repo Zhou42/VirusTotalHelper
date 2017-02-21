@@ -19,3 +19,10 @@ Open the browser and the service is running at http://locallhost:5000
 
 The application is written using python 2.7.12
 
+# Services 
+Service                                   | Description
+--------------------------------------------- | ------------------------------------------------------
+**Authentication**                                  |         |
+[User service](wiki/Users)               |             |
+[Report service](wiki/Reports)             |                 |
+
