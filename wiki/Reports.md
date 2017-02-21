@@ -7,4 +7,6 @@ For each hash, if it is already contained in the database and the scan date is l
 
 The response from the VirusTotal's public API is parsed and stored in the database. After processing all hash queries, a report summary table will be displayed for the file uploaded
 ![Report](report.png)
+
 ## Check Personal Reports
+A user can check all his/her history results for the hash queries by clicking `My reports`.
