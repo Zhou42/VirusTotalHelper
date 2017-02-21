@@ -5,7 +5,7 @@ VirusTotal Helper is a website that allows users to upload a text file as a list
 In the top-level folder of the application
 
 ```shell
-cd virustotal-web
+    cd virustotal-web
 ```
 
 run command
