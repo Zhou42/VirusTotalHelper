@@ -28,7 +28,7 @@ Service                                   | Description
 [Report service](wiki/Reports.md)             |        File upload/report generation         |
 
 # Data Model
-Service                                   | Description
+Data Model                                   | Description
 --------------------------------------------- | ------------------------------------------------------
 [User Data Model](wiki/user_model.md)               |     Data model for the users      |
 [Report Data Model](wiki/report_model.md)             |        Data model for the reports         |
