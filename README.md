@@ -12,7 +12,7 @@ Open the browser and the service is running at http://locallhost:5000
 
 ![Login](login_page.png)
 
-# Key Python Modules Used
+# Key Python Modules Used (Dependencies)
 - Flask(0.12) web framework
 - flask-sqlalchemy(2.1) database ORM
 - flask-login(0.4.0) user management
@@ -27,7 +27,22 @@ Service                                   | Description
 [User service](wiki/Users.md)               |      User registration/login/logout       |
 [Report service](wiki/Reports.md)             |        File upload/report generation         |
 
-# NOTICE
+# Data Model
+Service                                   | Description
+--------------------------------------------- | ------------------------------------------------------
+[User Data Model](wiki/user_model.md)               |     Data model for the users      |
+[Report Data Model](wiki/report_model.md)             |        Data model for the reports         |
+
+
+
+
+# Technology stack
+- Front-end: html, js, css (bootstrap)
+- Back-end server: flask framework (python)
+- Database: sqlite
+- Platform: Linux/OSX/Windows
+
+# Issues Encountered
 
 Since I am using the free basic API key, which only allows for 4 requests/minute maximum, the program will sleep for 16s each time making a VirusTotal's public API call. This however will result in very slow processing speed if we have large amount of hashes. 
 
